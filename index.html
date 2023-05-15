@@ -13,7 +13,7 @@
             {console.log(film + "Шикарный фильм")}
            
             let ocenka = confirm('Хотите оценить фильм?')
-            if (ocenka === "Да")
+            if (ocenka)
             {let film2 = "Зеленая миля"
             let vvod2 = prompt('Введите оценку для фильма ' + film2)
             if (vvod2 <= 3 && vvod2 >= 1) 
@@ -26,7 +26,7 @@
             {console.log(film2 + "Шикарный фильм")}
           
             let ocenka2 = confirm('Хотите оценить фильм?')
-            if (ocenka2 === "Да")  
+            if (ocenka2)  
             {let film3 = "Аватар"
             let vvod3 = prompt('Введите оценку для фильма ' + film3)
             if (vvod3 <= 3 && vvod3 >= 1) 
@@ -39,7 +39,7 @@
             {console.log(film3 + "Шикарный фильм")}
 
             let ocenka3 = confirm('Хотите оценить фильм?')
-            if (ocenka3 === "Да") 
+            if (ocenka3) 
             {let film4 = "Чебурашка"
             let vvod4 = prompt('Введите оценку для фильма ' + film4)
             if (vvod4 <= 3 && vvod4 >= 1) 
@@ -52,13 +52,13 @@
             {console.log(film4 + "Шикарный фильм")}}
         
             else 
-            {confirm.log("Конец")}
+            {console.log("Конец")}
+            }
+        else 
+            {console.log("Конец")}
         }
         else 
-            {confirm.log("Конец")}
-        }
-        else 
-            {confirm.log("Конец")}
+            {console.log("Конец")}
         </script>
     </head>
 </html>
